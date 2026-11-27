@@ -1,12 +1,12 @@
 <?php
 
 // panggil file PropertyConstant
-require('./PropertyConstan.php');
+require('./Jasa.php');
 
-use Pbo\Marketplace\Produk;
+use Pbo\Marketplace\Jasa;
 
 //object
-$produk = new Produk ();
+$produk = new Jasa();
 
 $produk->setKode('P0001')
        ->setNama('Laptop')
